@@ -1,0 +1,73 @@
+String library
+---------------------
+
+by Tuhin Bhattacharjee
+
+The String library is an attempt to provide improved string processing
+functionality to the C language. The String library enables 
+advanced string manipulation functions which are orginally 
+not present in the C language. 
+
+===============================================================================
+
+Implemented Functions :
+----------------------
+Function 1 : substrings()
+It Finds Out All Possible Substrings Of A Given String.
+Usage : substrings(a,n);
+where a is a pointer to a character array containing the string whose substrings are to be found out and n is an integer denoti- ng the size of the string 
+
+Function 2 : substr()
+It Displays All The Characters Of A Given String From A Given Starting Index To An Ending Index.
+Usage : substr(a,start,end);
+where a is a pointer to a character array containing the string whose characters are to be printed while start and end are integers denoting the starting and ending index respectively.
+
+Function 3 : strasc()
+It Sorts The Characters Of A Given String In Ascending Order.
+Usage : strasc(a,n) ;
+where a is a pointer to a character array containing the string whose characters are to be arranged in ascending order and n is an integer denoting the size of the string.
+
+Function 4 : length()
+It Returns The No. Of Characters Present In A String(Including Special Characters).
+Usage : length(a);
+where a is a pointer to a character array containing the string whose length is to be found out.
+
+Function 5 : strrev()
+It Reverses A String i.e. Prints The Characters Of A String From The End To Beginning.
+Usage : strrev(a,n);
+where a is a pointer to a character array containing the string which is to be reversed and n is an integer denoting the size of the string.
+
+Function 6 : strlwrcase()
+It Converts All The Characters Of A Given String To Lower Case.
+Usage : strlwrcase(a,n);
+where a is a pointer to a character array containing the string whose characters are to be converted to lower case and n is an integer denoting the size of the string.
+
+Function 7 : struprcase()
+It Converts All The Characters Of A Given String To Upper Case.
+Usage : struprcase(a,n);
+where a is a pointer to a character array containing the string whose characters are to be coconverted to upper case and n is an integer denoting the size of the string.
+
+Function 8 : stripDuplicates()
+It Creates A New String Consisting Of All Distinct Characters From An Existing String Provided By User Or Developer.
+Usage : stripDuplicates(arr,arr2);
+where arr is the original string provided by user whose all distinct characters and taken and then used to create a new string arr2.Please note that arr2 is a character array which has to be previously created by user and should be of size equal to the no. of distinct characters in arr.
+===============================================================================
+ 
+Files
+--------
+strlib.c - C implementaion of string functions.
+
+strlib.h - C header file for string functions.
+
+tst.c    - C example that implements the stripDuplicates()    
+           function of the string library. 
+
+===============================================================================
+
+Implementation :
+----------------
+To Implement The Library In Your C Programs Just Place The Syntax #include "strlib.c" In The Beginning Of Your C Code.
+
+===============================================================================
+
+ 
